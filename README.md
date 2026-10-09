@@ -20,7 +20,7 @@ This repository tracks notable **commercial visual data analytics platforms** an
 
 
 
-**Open-source emphasis**: Visual data analytics is one of the strongest open-source domains. **Apache Superset** leads with 60,000+ GitHub stars and Superset 5.0 delivering AI-powered intelligence layer with MCP server for LLM access . **Metabase** provides no-code self-service analytics for non-technical users . **Grafana** delivers unified dashboards across 100+ data sources with ML-powered alerting . **Redash** enables SQL-driven dashboards with collaboration . **Lightdash** brings a Looker-like semantic layer for dbt users . **Apache Doris** and **ClickHouse** power real-time analytical backends, while **Streamlit** and **Evidence.dev** enable code-first analytics apps . This section is heavily expanded.
+**Open-source emphasis**: Visual data analytics is one of the strongest open-source domains. **Apache Superset** leads with 60,000+ GitHub_Stars and Superset 5.0 delivering AI-powered intelligence layer with MCP server for LLM access . **Metabase** provides no-code self-service analytics for non-technical users . **Grafana** delivers unified dashboards across 100+ data sources with ML-powered alerting . **Redash** enables SQL-driven dashboards with collaboration . **Lightdash** brings a Looker-like semantic layer for dbt users . **Apache Doris** and **ClickHouse** power real-time analytical backends, while **Streamlit** and **Evidence.dev** enable code-first analytics apps . This section is heavily expanded.
 
 
 
@@ -71,31 +71,31 @@ The visual data analytics market is estimated at **$15.7 billion in 2026** and p
 
 - **[Apache Superset](https://github.com/apache/superset)**
 
-  **The leading open-source modern data exploration and visualization platform**, Apache-2.0 licensed with **60,000+ GitHub stars** . **Superset 5.0 provides a rich set of data visualizations** with an easy-to-use interface for creating and sharing dashboards . **SQL IDE with Jinja templating, semantic layer, and advanced analytics** . **Superset MCP server** enables LLM access to datasets, charts, and dashboards for intelligent analytics . **Intelligence layer** enables AI agents to explore all company data with definition-level access control . **Best for open-source business intelligence**.
+  **The leading open-source modern data exploration and visualization platform**, Apache-2.0 licensed with **60,000+ GitHub_Stars** . **Superset 5.0 provides a rich set of data visualizations** with an easy-to-use interface for creating and sharing dashboards . **SQL IDE with Jinja templating, semantic layer, and advanced analytics** . **Superset MCP server** enables LLM access to datasets, charts, and dashboards for intelligent analytics . **Intelligence layer** enables AI agents to explore all company data with definition-level access control . **Best for open-source business intelligence**.
 
 
 
 - **[Metabase](https://github.com/metabase/metabase)**
 
-  **Open-source BI and analytics**, AGPL-3.0 licensed with **40,000+ GitHub stars** . **No-code question builder** for business users — ask questions without SQL . **Dashboards, alerts, and subscriptions** . **Self-hosted or cloud** . **Best for self-service analytics by non-technical users** .
+  **Open-source BI and analytics**, AGPL-3.0 licensed with **40,000+ GitHub_Stars** . **No-code question builder** for business users — ask questions without SQL . **Dashboards, alerts, and subscriptions** . **Self-hosted or cloud** . **Best for self-service analytics by non-technical users** .
 
 
 
 - **[Grafana](https://github.com/grafana/grafana)**
 
-  **The de facto standard for open-source dashboards**, AGPL-3.0 licensed with **65,000+ GitHub stars** . **Connects to 100+ data sources including Prometheus, Loki, Tempo, Elasticsearch, PostgreSQL, MySQL, and more** . **Rich visualization library with alerting, annotations, and templating** . **ML-powered alerting** with outlier detection and forecasting (AI features tier-locked on Grafana Cloud) . **Best for operational and observability dashboards** .
+  **The de facto standard for open-source dashboards**, AGPL-3.0 licensed with **65,000+ GitHub_Stars** . **Connects to 100+ data sources including Prometheus, Loki, Tempo, Elasticsearch, PostgreSQL, MySQL, and more** . **Rich visualization library with alerting, annotations, and templating** . **ML-powered alerting** with outlier detection and forecasting (AI features tier-locked on Grafana Cloud) . **Best for operational and observability dashboards** .
 
 
 
 - **[Redash](https://github.com/getredash/redash)**
 
-  **Open-source data visualization and dashboarding**, BSD-2-Clause licensed with **25,000+ GitHub stars** . **SQL-based query editor** with visualization and dashboards . **Collaboration features** with query sharing . **Best for SQL-driven dashboards** .
+  **Open-source data visualization and dashboarding**, BSD-2-Clause licensed with **25,000+ GitHub_Stars** . **SQL-based query editor** with visualization and dashboards . **Collaboration features** with query sharing . **Best for SQL-driven dashboards** .
 
 
 
 - **[Lightdash](https://github.com/lightdash/lightdash)**
 
-  **Open-source Looker alternative for dbt users**, MIT licensed with **4,000+ GitHub stars** . **Semantic layer built on dbt** — defines metrics and dimensions in YAML . **Self-service analytics for the whole team** . **Best for dbt-centric analytics workflows** .
+  **Open-source Looker alternative for dbt users**, MIT licensed with **4,000+ GitHub_Stars** . **Semantic layer built on dbt** — defines metrics and dimensions in YAML . **Self-service analytics for the whole team** . **Best for dbt-centric analytics workflows** .
 
 
 
@@ -105,19 +105,19 @@ The visual data analytics market is estimated at **$15.7 billion in 2026** and p
 
 - **[Cube](https://github.com/cube-js/cube)**
 
-  **Open-source semantic layer for data applications**, MIT licensed with **17,000+ GitHub stars** . **Headless BI** — define metrics once, use them everywhere . **Supports SQL, REST, GraphQL, and MDX APIs** . **Best for embedded analytics and consistent metrics** .
+  **Open-source semantic layer for data applications**, MIT licensed with **17,000+ GitHub_Stars** . **Headless BI** — define metrics once, use them everywhere . **Supports SQL, REST, GraphQL, and MDX APIs** . **Best for embedded analytics and consistent metrics** .
 
 
 
 - **[Streamlit](https://github.com/streamlit/streamlit)**
 
-  **Python framework for building data apps**, Apache-2.0 licensed with **35,000+ GitHub stars** . **Turn Python scripts into interactive web apps** — no frontend experience required . **Best for custom data apps and dashboards** .
+  **Python framework for building data apps**, Apache-2.0 licensed with **35,000+ GitHub_Stars** . **Turn Python scripts into interactive web apps** — no frontend experience required . **Best for custom data apps and dashboards** .
 
 
 
 - **[Evidence.dev](https://github.com/evidence-dev/evidence)**
 
-  **Code-based BI platform**, MIT licensed with **4,000+ GitHub stars** . **Markdown + SQL** — build dashboards as code . **Version-controlled analytics** . **Best for developer-centric analytics** .
+  **Code-based BI platform**, MIT licensed with **4,000+ GitHub_Stars** . **Markdown + SQL** — build dashboards as code . **Version-controlled analytics** . **Best for developer-centric analytics** .
 
 
 
@@ -133,25 +133,25 @@ The visual data analytics market is estimated at **$15.7 billion in 2026** and p
 
 - **[Apache Doris](https://github.com/apache/doris)**
 
-  **Real-time analytical database**, Apache-2.0 licensed with **12,000+ GitHub stars** . **High-performance SQL analytics** . **Best for real-time analytics** .
+  **Real-time analytical database**, Apache-2.0 licensed with **12,000+ GitHub_Stars** . **High-performance SQL analytics** . **Best for real-time analytics** .
 
 
 
 - **[ClickHouse](https://github.com/ClickHouse/ClickHouse)**
 
-  **The leading columnar analytical database**, Apache-2.0 licensed with **35,000+ GitHub stars** . **Real-time ingestion and sub-second queries** . **Best for large-scale analytics** .
+  **The leading columnar analytical database**, Apache-2.0 licensed with **35,000+ GitHub_Stars** . **Real-time ingestion and sub-second queries** . **Best for large-scale analytics** .
 
 
 
 - **[StarRocks](https://github.com/StarRocks/starrocks)**
 
-  **High-performance analytical database**, Apache-2.0 licensed with **8,000+ GitHub stars** . **Real-time analytics with lakehouse integration** . **Best for modern analytics** .
+  **High-performance analytical database**, Apache-2.0 licensed with **8,000+ GitHub_Stars** . **Real-time analytics with lakehouse integration** . **Best for modern analytics** .
 
 
 
 - **[DuckDB](https://github.com/duckdb/duckdb)**
 
-  **In-process analytical database**, MIT licensed with **20,000+ GitHub stars** . **"SQLite for analytics"** — columnar storage with vectorized execution . **Best for embedded analytics** .
+  **In-process analytical database**, MIT licensed with **20,000+ GitHub_Stars** . **"SQLite for analytics"** — columnar storage with vectorized execution . **Best for embedded analytics** .
 
 
 
