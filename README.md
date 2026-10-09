@@ -67,7 +67,7 @@ The visual data analytics market is estimated at **$15.7 billion in 2026** and p
 
 ## 🔓 Open-Source GitHub Projects
 
-Visual data analytics is one of the most vibrant open-source domains. Below are top open-source projects sorted in **descending order by GitHub Stars_Count**.
+Visual data analytics is one of the most vibrant open-source domains. Below are top open-source projects sorted in **descending order by GitHub_Stars_Count**.
 
 ---
 
