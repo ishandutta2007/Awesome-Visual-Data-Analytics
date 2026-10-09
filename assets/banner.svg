@@ -24,12 +24,6 @@
       <stop offset="100%" stop-color="#06b6d4" />
     </linearGradient>
 
-    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="60%" stop-color="#f3f4f6" />
-      <stop offset="100%" stop-color="#cbd5e1" />
-    </linearGradient>
-
     <linearGradient id="subtext-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#818cf8" />
       <stop offset="50%" stop-color="#c084fc" />
@@ -47,79 +41,82 @@
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
     </filter>
 
-    <!-- Dark Center Overlay Mask / Gradient to keep text crisp -->
+    <!-- Dark Center Backdrop Gradient -->
     <radialGradient id="center-darkener" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.85" />
-      <stop offset="60%" stop-color="#0f172a" stop-opacity="0.6" />
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#0f172a" stop-opacity="0.75" />
       <stop offset="100%" stop-color="#0f172a" stop-opacity="0" />
     </radialGradient>
   </defs>
 
   <style>
-    /* CSS Animations */
-    @keyframes pulse-slow {
+    /* Standardized Keyframe Animations with smooth transforms */
+    @keyframes pulse-orb {
       0%, 100% { transform: scale(1); opacity: 0.35; }
       50% { transform: scale(1.08); opacity: 0.65; }
     }
 
-    @keyframes float-1 {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-12px) rotate(2deg); }
+    @keyframes float-card-left {
+      0%, 100% { transform: translate(45px, 65px); }
+      50% { transform: translate(45px, 53px); }
     }
 
-    @keyframes float-2 {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(10px) rotate(-2deg); }
+    @keyframes float-card-right {
+      0%, 100% { transform: translate(895px, 65px); }
+      50% { transform: translate(895px, 77px); }
     }
 
-    @keyframes wave-flow {
+    @keyframes dash-flow {
       0% { stroke-dashoffset: 0; }
       100% { stroke-dashoffset: -200; }
     }
 
-    @keyframes bar-grow {
-      0%, 100% { transform: scaleY(1); }
-      50% { transform: scaleY(0.75); }
+    @keyframes bar-pulse-1 {
+      0%, 100% { height: 80px; y: 50px; }
+      50% { height: 60px; y: 70px; }
     }
 
-    @keyframes orb-glow {
-      0%, 100% { opacity: 0.4; }
-      50% { opacity: 0.8; }
+    @keyframes bar-pulse-2 {
+      0%, 100% { height: 100px; y: 30px; }
+      50% { height: 75px; y: 55px; }
     }
 
-    /* Animation Classes */
-    .bg-orb-1 { animation: pulse-slow 8s ease-in-out infinite; transform-origin: 200px 100px; }
-    .bg-orb-2 { animation: pulse-slow 10s ease-in-out infinite 2s; transform-origin: 1000px 280px; }
+    @keyframes bar-pulse-3 {
+      0%, 100% { height: 60px; y: 70px; }
+      50% { height: 95px; y: 35px; }
+    }
+
+    .bg-orb-1 { animation: pulse-orb 8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .bg-orb-2 { animation: pulse-orb 10s ease-in-out infinite 2s; transform-box: fill-box; transform-origin: center; }
     
-    .floating-card-left { animation: float-1 6s ease-in-out infinite; transform-origin: center; }
-    .floating-card-right { animation: float-2 7s ease-in-out infinite 1s; transform-origin: center; }
+    .floating-card-left { animation: float-card-left 6s ease-in-out infinite; }
+    .floating-card-right { animation: float-card-right 7s ease-in-out infinite; }
     
     .animated-wave {
       stroke-dasharray: 12, 12;
-      animation: wave-flow 20s linear infinite;
+      animation: dash-flow 20s linear infinite;
     }
 
-    .bar-anim-1 { animation: bar-grow 3s ease-in-out infinite; transform-origin: bottom; }
-    .bar-anim-2 { animation: bar-grow 4s ease-in-out infinite 0.5s; transform-origin: bottom; }
-    .bar-anim-3 { animation: bar-grow 3.5s ease-in-out infinite 1s; transform-origin: bottom; }
+    .bar-anim-1 { animation: bar-pulse-1 3s ease-in-out infinite; }
+    .bar-anim-2 { animation: bar-pulse-2 4s ease-in-out infinite 0.5s; }
+    .bar-anim-3 { animation: bar-pulse-3 3.5s ease-in-out infinite 1s; }
 
-    /* Modern Typography & Styling */
+    /* Web Safe Typography */
     .title-text {
-      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       font-weight: 800;
-      font-size: 48px;
-      letter-spacing: -0.5px;
+      font-size: 46px;
+      fill: #ffffff;
     }
 
     .subtitle-text {
-      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       font-weight: 600;
       font-size: 20px;
-      letter-spacing: 0.2px;
     }
 
     .pill-text {
-      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       font-weight: 600;
       font-size: 13px;
     }
@@ -134,12 +131,12 @@
   <!-- Base Background Layer -->
   <rect width="1200" height="360" fill="url(#bg-grad)" rx="16" />
 
-  <!-- Background Animated Glowing Orbs (Deep In Background) -->
+  <!-- Background Animated Glowing Orbs -->
   <circle class="bg-orb-1" cx="200" cy="80" r="180" fill="#6366f1" opacity="0.3" filter="url(#glow-heavy)" />
   <circle class="bg-orb-2" cx="1020" cy="280" r="200" fill="#ec4899" opacity="0.25" filter="url(#glow-heavy)" />
   <circle cx="600" cy="180" r="250" fill="#3b82f6" opacity="0.15" filter="url(#glow-heavy)" />
 
-  <!-- Grid Patterns (Background Detail) -->
+  <!-- Grid Patterns -->
   <g class="grid-layer">
     <line x1="0" y1="60" x2="1200" y2="60" class="grid-line" />
     <line x1="0" y1="120" x2="1200" y2="120" class="grid-line" />
@@ -152,10 +149,10 @@
     <line x1="1050" y1="0" x2="1050" y2="360" class="grid-line" />
   </g>
 
-  <!-- Left Side Dynamic Element: Animated Data Chart Card (Positioned safely on sides) -->
-  <g class="floating-card-left" transform="translate(45, 65)">
+  <!-- Left Side Dynamic Element: Animated Data Chart Card -->
+  <g class="floating-card-left">
     <!-- Card Frame -->
-    <rect width="260" height="230" rx="14" fill="#0f172a" fill-opacity="0.65" stroke="#334155" stroke-width="1.5" filter="url(#glow-soft)" />
+    <rect width="260" height="230" rx="14" fill="#0f172a" fill-opacity="0.75" stroke="#334155" stroke-width="1.5" filter="url(#glow-soft)" />
     
     <!-- Card Header -->
     <circle cx="25" cy="25" r="5" fill="#ef4444" />
@@ -175,13 +172,13 @@
     
     <!-- Stat Badge -->
     <rect x="150" y="45" width="90" height="28" rx="6" fill="#1e293b" stroke="#06b6d4" stroke-opacity="0.4" />
-    <text x="160" y="64" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">+148.5% ▲</text>
+    <text x="160" y="64" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">+148.5% &#9650;</text>
   </g>
 
-  <!-- Right Side Dynamic Element: Bar Analytics & Flow Diagram (Positioned safely on right) -->
-  <g class="floating-card-right" transform="translate(895, 65)">
+  <!-- Right Side Dynamic Element: Bar Analytics & Flow Diagram -->
+  <g class="floating-card-right">
     <!-- Card Frame -->
-    <rect width="260" height="230" rx="14" fill="#0f172a" fill-opacity="0.65" stroke="#334155" stroke-width="1.5" filter="url(#glow-soft)" />
+    <rect width="260" height="230" rx="14" fill="#0f172a" fill-opacity="0.75" stroke="#334155" stroke-width="1.5" filter="url(#glow-soft)" />
     
     <!-- Card Header -->
     <text x="20" y="30" fill="#94a3b8" font-family="sans-serif" font-size="12" font-weight="600">OLAP QUERY ENGINE</text>
@@ -217,27 +214,27 @@
     <text x="30" y="204" fill="#cbd5e1" font-family="sans-serif" font-size="11">Latency: <tspan fill="#10b981" font-weight="bold">1.2ms</tspan> | Throughput: <tspan fill="#6366f1" font-weight="bold">50k rps</tspan></text>
   </g>
 
-  <!-- Center Dark Backdrop Shield (Ensoring title/subtitle NEVER get obscured) -->
+  <!-- Center Dark Backdrop Shield (Ensuring title/subtitle NEVER get obscured) -->
   <rect x="310" y="30" width="580" height="300" rx="20" fill="url(#center-darkener)" />
 
   <!-- Center Decorative Glow Line under Subtitle -->
   <line x1="420" y1="218" x2="780" y2="218" stroke="url(#primary-grad)" stroke-width="3" stroke-linecap="round" filter="url(#glow-soft)" />
 
-  <!-- Foreground Title and Subtitle Layer (Guaranteed Top Z-Index & Crisp Readability) -->
+  <!-- Foreground Title and Subtitle Layer -->
   <g text-anchor="middle">
     <!-- Top Pill Badge -->
     <g transform="translate(600, 72)">
       <rect x="-140" y="-16" width="280" height="32" rx="16" fill="#1e1b4b" fill-opacity="0.9" stroke="#6366f1" stroke-width="1.5" filter="url(#glow-soft)" />
-      <text class="pill-text" x="0" y="5" fill="#a5b4fc" text-anchor="middle">⚡ ENTERPRISE &amp; OPEN-SOURCE BI ⚡</text>
+      <text class="pill-text" x="0" y="5" fill="#a5b4fc" text-anchor="middle">&#9889; ENTERPRISE &amp; OPEN-SOURCE BI &#9889;</text>
     </g>
 
     <!-- Main Title -->
-    <text class="title-text" x="600" y="152" fill="url(#text-grad)" filter="url(#glow-soft)">
+    <text class="title-text" x="600" y="152" text-anchor="middle" filter="url(#glow-soft)">
       Awesome Visual Data Analytics
     </text>
 
     <!-- Subtitle -->
-    <text class="subtitle-text" x="600" y="200" fill="url(#subtext-grad)">
+    <text class="subtitle-text" x="600" y="200" fill="url(#subtext-grad)" text-anchor="middle">
       Curated Ecosystem of Business Intelligence, Dashboards &amp; OLAP
     </text>
 
@@ -246,25 +243,25 @@
       <!-- Tag 1 -->
       <g transform="translate(-190, 0)">
         <rect x="-65" y="-13" width="130" height="26" rx="13" fill="#0f172a" fill-opacity="0.9" stroke="#06b6d4" stroke-width="1" />
-        <text class="pill-text" x="0" y="4" fill="#38bdf8" text-anchor="middle">📊 Dashboards</text>
+        <text class="pill-text" x="0" y="4" fill="#38bdf8" text-anchor="middle">Dashboards</text>
       </g>
       
       <!-- Tag 2 -->
       <g transform="translate(-60, 0)">
         <rect x="-55" y="-13" width="110" height="26" rx="13" fill="#0f172a" fill-opacity="0.9" stroke="#a855f7" stroke-width="1" />
-        <text class="pill-text" x="0" y="4" fill="#c084fc" text-anchor="middle">🚀 SaaS BI</text>
+        <text class="pill-text" x="0" y="4" fill="#c084fc" text-anchor="middle">SaaS BI</text>
       </g>
 
       <!-- Tag 3 -->
       <g transform="translate(65, 0)">
         <rect x="-60" y="-13" width="120" height="26" rx="13" fill="#0f172a" fill-opacity="0.9" stroke="#10b981" stroke-width="1" />
-        <text class="pill-text" x="0" y="4" fill="#34d399" text-anchor="middle">🔓 Open-Source</text>
+        <text class="pill-text" x="0" y="4" fill="#34d399" text-anchor="middle">Open-Source</text>
       </g>
 
       <!-- Tag 4 -->
       <g transform="translate(190, 0)">
         <rect x="-55" y="-13" width="110" height="26" rx="13" fill="#0f172a" fill-opacity="0.9" stroke="#ec4899" stroke-width="1" />
-        <text class="pill-text" x="0" y="4" fill="#f472b6" text-anchor="middle">⚡ Real-Time</text>
+        <text class="pill-text" x="0" y="4" fill="#f472b6" text-anchor="middle">Real-Time</text>
       </g>
     </g>
   </g>
