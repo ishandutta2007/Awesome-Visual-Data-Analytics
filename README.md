@@ -44,63 +44,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-- **[Salesforce Tableau](https://www.tableau.com/)**
+The visual data analytics market is estimated at **$15.7 billion in 2026** and projected to reach **$32.5 billion by 2031**, exhibiting a **highly concentrated market structure** dominated by mega-cap cloud platform leaders (Microsoft, Google, Salesforce) while specialized independent vendors occupy high-value niches.
 
-  **The enterprise visual analytics standard** — drag-and-drop interface with powerful calculation language. **Tableau Pulse** for AI-driven insights delivery into workflows. **Tableau Next** for agentic analytics. **Pricing**: €75/user/month for Tableau Viewer, €115/user/month for Creator . **Best for mature enterprise BI programs**.
-
-
-
-- **[Microsoft Power BI](https://powerbi.microsoft.com/)**
-
-  **Microsoft's business analytics platform** — deeply integrated with Excel, Azure, and Microsoft 365. **Strong pricing**: Pro at $10/user/month, Premium Per User at $20/user/month . **Copilot AI** included with Premium capacity. **Best for Microsoft-centric organizations**.
-
-
-
-- **[Looker (Google Cloud)](https://looker.com/)**
-
-  **Google's enterprise BI platform** — LookML semantic modeling layer with embedded analytics. **Looker Studio** for free dashboarding. **Best for governed, consistent metrics across the organization**.
-
-
-
-- **[Qlik Sense](https://www.qlik.com/)**
-
-  **Associative analytics engine** — unique associative model that surfaces unexpected relationships. **Best for exploratory analytics and data discovery**.
-
-
-
-- **[Domo](https://www.domo.com/)**
-
-  **Cloud BI platform** — 1,000+ connectors with ETL, dashboards, and apps. **Best for business-user-driven analytics**.
-
-
-
-- **[Sisense](https://www.sisense.com/)**
-
-  **Embedded analytics platform** — fusion data engine with in-chip technology. **Best for embedding analytics into products**.
-
-
-
-- **[ThoughtSpot](https://www.thoughtspot.com/)**
-
-  **Search-driven analytics** — natural language query with SpotIQ AI. **Best for business-user ad-hoc analytics**.
-
-
-
-- **[TIBCO Spotfire](https://www.tibco.com/products/tibco-spotfire)**
-
-  **Advanced analytics platform** — predictive analytics and location intelligence. **Best for scientific and industrial analytics**.
-
-
-
-- **[Sigma Computing](https://www.sigmacomputing.com/)**
-
-  **Cloud-native BI for warehouses** — spreadsheet interface over cloud data warehouses. **Best for Snowflake, Databricks, and BigQuery users**.
-
-
-
-- **[GoodData](https://www.gooddata.com/)**
-
-  **Composable analytics platform** — headless BI with embedded dashboards. **Best for embedded analytics at scale**.
+| Platform | Description & Key Strengths | Starting Pricing | Free Tier / Trial Limit | Company Size (Revenue / Valuation) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Power BI](https://powerbi.microsoft.com/)** | Deeply integrated with Excel, Azure, and Microsoft 365 with Copilot AI. Best for Microsoft-centric enterprise ecosystems. | $10/user/month (Pro plan) | 60-day free trial (Pro features) | Market Cap: **$3.93 Trillion** (Parent: Microsoft; Rev: $331.8B/yr) |
+| **[Looker (Google Cloud)](https://looker.com/)** | Governed LookML semantic modeling layer and enterprise BI. (Includes free Looker Studio for basic visual reporting). | $9/user/month (Looker Studio Pro); Enterprise Looker from $60,000/yr | 30-day free trial (Looker Core) / Looker Studio free forever | Market Cap: **$4.28 Trillion** (Parent: Alphabet; Rev: $350B+/yr) |
+| **[Salesforce Tableau](https://www.tableau.com/)** | Enterprise visual analytics standard with drag-and-drop interface, Tableau Pulse AI insights, and Tableau Next agentic workflows. | $15/user/month (Viewer); $75/user/month (Creator) | 14-day free trial (Tableau Cloud) / Tableau Public free for public datasets | Market Cap: **$280 Billion** (Salesforce acquisition: $15.7B) |
+| **[Qlik Sense](https://www.qlik.com/)** | Associative analytics engine for exploring hidden data relationships across complex enterprise sources. | $300/month (Standard plan) | 30-day free trial | Valuation: **$10 Billion** (Rev: ~$1 Billion/yr) |
+| **[ThoughtSpot](https://www.thoughtspot.com/)** | Natural language search-driven analytics powered by SpotIQ AI engine. | $25/user/month (Essentials plan) | 14-day free trial (max 5M rows / 1M export limit) | Valuation: **$4.2 Billion** (ARR: $150 Million+) |
+| **[Sigma Computing](https://www.sigmacomputing.com/)** | Spreadsheet-native interface operating directly on Snowflake, Databricks, and BigQuery cloud data warehouses. | $61,000/year (Estimated entry-level enterprise contract) | 7-day free trial (no credit card required) | Valuation: **$3.0 Billion** (ARR: $200 Million+) |
+| **[Sisense](https://www.sisense.com/)** | Embedded analytics platform featuring fusion data engine and in-chip technology for product embedding. | $25,000/year (Estimated entry-level contract) | 14-day free trial (Self-Serve tier) | Valuation: **$1.1 Billion** (ARR: $185 Million) |
+| **[TIBCO Spotfire](https://www.tibco.com/products/tibco-spotfire)** | Advanced predictive analytics and location intelligence for scientific, industrial, and engineering data. | $65/user/month (Estimated Spotfire Analytics tier) | 30-day free trial (Spotfire Industry Pro) | Acquisition Value: **$8.0 Billion** (Parent: Cloud Software Group / Thoma Bravo) |
+| **[Domo](https://www.domo.com/)** | Business-user-driven cloud BI platform with 1,000+ connectors, Magic ETL, and low-code app framework. | $30,000/year (Estimated entry-level contract) | 30-day free trial (unlimited credits for core features) | Acquisition Value: **$400 Million** (Progress acquisition in 2026; Rev: $318.9M) |
+| **[GoodData](https://www.gooddata.com/)** | Headless composable analytics platform built for developer-first embedded BI at scale. | $1,000/month (Platform base fee + workspace fee) | 30-day free trial (100MB per workspace limit) | Valuation: **$311 Million** (Total Funding: $167.7M; Rev: ~$63M) |
 
 
 
